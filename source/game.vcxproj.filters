@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{0587d7a3-f2ce-4d56-b84f-a0005d3bfce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources">
+      <UniqueIdentifier>{08e36723-ce4f-4cff-9662-c40801cf1acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui\impl">
+      <UniqueIdentifier>{ed159898-96c7-4927-8d65-468fd4f2eda5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui\main">
+      <UniqueIdentifier>{a916ed69-f166-4856-ade9-3b47fa932fcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\window">
+      <UniqueIdentifier>{2051f3e1-a4c3-44e5-9d4e-eb0a5e59c24e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\renderer">
+      <UniqueIdentifier>{e4245ab8-b18a-415d-8177-0682565b7f74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\math">
+      <UniqueIdentifier>{c4dec9e7-072f-4fe6-8a5e-51552d965f96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\game">
+      <UniqueIdentifier>{cef5f765-d966-42ce-90c5-d62cb5b35739}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\menu">
+      <UniqueIdentifier>{6d30f341-9569-423e-a261-1a171319a395}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\save system">
+      <UniqueIdentifier>{bde33f09-db56-44f0-b452-ce9833cd0cd0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.hpp">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="game\asteroids.hpp">
+      <Filter>sources\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\coins.hpp">
+      <Filter>sources\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\game.hpp">
+      <Filter>sources\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\player.hpp">
+      <Filter>sources\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\waves.hpp">
+      <Filter>sources\game</Filter>
+    </ClInclude>
+    <ClInclude Include="math\collision.hpp">
+      <Filter>sources\math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\math.hpp">
+      <Filter>sources\math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\singleton.hpp">
+      <Filter>sources\math</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\menu.hpp">
+      <Filter>sources\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\widgets.hpp">
+      <Filter>sources\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\imageloader.hpp">
+      <Filter>sources\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\renderer.hpp">
+      <Filter>sources\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="save system\save system.hpp">
+      <Filter>sources\save system</Filter>
+    </ClInclude>
+    <ClInclude Include="window\device.hpp">
+      <Filter>sources\window</Filter>
+    </ClInclude>
+    <ClInclude Include="window\window.hpp">
+      <Filter>sources\window</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx11.h">
+      <Filter>imgui\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>imgui\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>imgui\main</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>imgui\main</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>imgui\main</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>imgui\main</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>imgui\main</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>imgui\main</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="game\asteroids.cpp">
+      <Filter>sources\game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\coins.cpp">
+      <Filter>sources\game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\game.cpp">
+      <Filter>sources\game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\player.cpp">
+      <Filter>sources\game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\waves.cpp">
+      <Filter>sources\game</Filter>
+    </ClCompile>
+    <ClCompile Include="math\collision.cpp">
+      <Filter>sources\math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\math.cpp">
+      <Filter>sources\math</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\menu.cpp">
+      <Filter>sources\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\widgets.cpp">
+      <Filter>sources\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\imageloader.cpp">
+      <Filter>sources\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\renderer.cpp">
+      <Filter>sources\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="save system\save system.cpp">
+      <Filter>sources\save system</Filter>
+    </ClCompile>
+    <ClCompile Include="window\device.cpp">
+      <Filter>sources\window</Filter>
+    </ClCompile>
+    <ClCompile Include="window\window.cpp">
+      <Filter>sources\window</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx11.cpp">
+      <Filter>imgui\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>imgui\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>imgui\main</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>imgui\main</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>imgui\main</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>imgui\main</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>imgui\main</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
